@@ -1,0 +1,93 @@
+Talimatlar
+Ekteki HTML Sayfasını Referans Alarak Yine Ekte Göreceğiniz Tasarımın CSS Sorularına Göre Oluşturunuz.
+
+Soru 1) Web sayfasının arka plan resmi olarak “bg.png” dosyasını ekleyiniz, sayfanın yazı fontu “Century Gothic” olacak (10 puan)
+
+Soru 2) Bir anakutu oluşturup: genişlik: 960px, iç boşluk: 10px, kenarlık: 5px kalınlığında düz çizgi #00909e renk, arkaplan rengi: beyaz , sayfaya ortalı ve üstten 100px dış boşluk olacak şekilde biçimlendiren stil kodlarını yazınız. (20 puan)
+
+Soru 3) h1 başlık rengi ##e25822, alt çerçeve 2px kalınlığında düz ve #1b2a49 renginde , (10 puan)
+
+Soru 4) h2 başlık rengi #e25822, (5 puan)
+
+Soru 5) Paragraflar her iki yana yaslı, satır yüksekliği 2, (10 puan)
+
+Soru 6) Resimler sayfaya ortalı, alt çerçevesi 5px kalınlığında düz ve rengi #1b2a49 (10 puan)
+
+Soru 7) Linklerin altında çizgi olmayacak, dış sağ boşluğu 20px olacak, yazı büyüklüğü 18px ve kalın olacak, linkler sayfada ortada olacak ve alt çerçevesi 5px kalınlığında düz ve rengi #1b2a49 (25 puan)
+
+Soru 8) Linklerin üzerine gelindiğinde yazı rengi #e25822 ve altı çizgili olacak şekilde stil kodlamalarını yapınız. (10 puan)
+
+
+<!-- ============== Ek Html Sayfası============== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>www.bilisimogretmeni.com CSS Uygulama Ã–rnekleri</title>
+    <link rel="stylesheet" href="style.css">
+  <link
+</head>
+<body>
+  <div id="genel">
+        <h1>Ä°Ã§erik YÃ¶netim Sistemi (CMS) Nedir?</h1>
+        <p class="resim"><img src="images/cms-nedir.png" id="cerceve" /></p>
+        <p>
+            Ä°Ã§erik YÃ¶netim Sistemleri, web sitelerinin oluÅŸturulmasÄ± ve gÃ¼ncellenmesi iÃ§in tasarlanmÄ±ÅŸ web tabanlÄ± uygulamalardÄ±r.
+            Ä°ÅŸlevselliklerini artÄ±rmak ve web sitesinin yÃ¶netimini kolaylaÅŸtÄ±rmak iÃ§in temalar ve eklentiler de olabilmektedir.
+            HalihazÄ±rda birÃ§ok iÃ§erik yÃ¶netim sistemi mevcut ve bunlarÄ±n her birinin gÃ¼Ã§lÃ¼ ve avantajlÄ± yÃ¶nleri bulunuyor.
+            Ä°sterseniz hemen gÃ¶z atmaya baÅŸlayalÄ±m.
+        </p>
+        <p id="link">
+            <a href="#">Wordpress</a>
+            <a href="#">Drupal</a>
+            <a href="#">Joomla</a>
+        </p>
+        <p>
+            Ä°Ã§erik YÃ¶netim Sistemleri ile ilgili geniÅŸ bilgilere yukarÄ±daki linklere tÄ±klayarak resmi sitelerinden geniÅŸ bilgi alabilir yada aÅŸaÄŸÄ±da 
+            vermiÅŸ olduÄŸumuz kÄ±sa aÃ§Ä±klamalarÄ± inceleyebilirsiniz...
+        </p>
+        <h2>
+            WordPress
+        </h2>
+        <p class="resim"><img src="images/WordPress-Logo.png" id="cerceve" /></p>
+        <p>
+            WordPress iÃ§erik yÃ¶netim sistemlerinin en gÃ¼Ã§lÃ¼ olanlarÄ±ndandÄ±r.
+            KullanÄ±mÄ± kolay ve tasarÄ±mlarÄ± gÃ¶z alÄ±cÄ± olan bu sistem ilk olarak bir bloglama platformu olarak tasarlanmÄ±ÅŸtÄ±r.
+            Ancak, yavaÅŸ yavaÅŸ bazÄ± hileler ve eklentilerin de yardÄ±mÄ± ile gÃ¼Ã§lÃ¼ bir CMSâ€™e dÃ¶nÃ¼ÅŸebilir.
+            Bu Ã¶zelleÅŸtirme iÃ§in gerek kodlama yapÄ±sÄ± gerekse eklentilerin kullanÄ±mÄ±nÄ± iyi bilmek, olmazsa olmaz bir ihtiyaÃ§tÄ±r.
+            DÃ¼nya Ã¼zerindeki internet sayfalarÄ±nÄ±n yaklaÅŸÄ±k olarak %30`na yakÄ±nÄ± bu altyapÄ±yÄ± kullanmaktadÄ±r.
+            ÃœnlÃ¼ birÃ§ok marka ve kiÅŸi de web sayfalarÄ±nÄ± bu altyapÄ±ya emanet etmiÅŸtir.
+            AlanÄ±nda birinciliÄŸi olan WordPressâ€™in en bÃ¼yÃ¼k iki rakibi Drupal ve Joomlaâ€™dÄ±r.
+            Ãœcretli ve Ã¼cretsiz tema ve pluginleri ciddi bir pazar yaratmÄ±ÅŸtÄ±r.
+        </p>
+ 
+        <h2>
+            Drupal
+        </h2>
+        <p class="resim"><img src="images/drupal-logo.jpg" id="cerceve" /></p>
+        <p>
+            Drupal Ã¼cretsiz ve aÃ§Ä±k kaynak kodlu modÃ¼lleri barÄ±ndÄ±ran bir Ä°Ã§erik YÃ¶netim Sistemi (CMS) dir.
+            PHP ile yazÄ±lmÄ±ÅŸ olan Drupal, web tabanlÄ± bir Ä°Ã§erik YÃ¶netim Sistemidir.
+            Drupal ile tek kullanÄ±cÄ±lÄ± kiÅŸisel sitelerden, Ã§ok kullanÄ±cÄ±lÄ± topluluk sitelerine kadar her tÃ¼rlÃ¼ siteyi kolayca yapabilirsiniz.
+            GÃ¼Ã§lÃ¼ tema Ã¶zellikleri sayesinde sitenizin istediÄŸiniz her kÃ¶ÅŸesini kendi istediÄŸiniz ÅŸekilde deÄŸiÅŸtirebilirsiniz.
+            Drupal bÃ¼yÃ¼k ÅŸirketlerden siyasi parti sitelerine, kÃ¼Ã§Ã¼k kiÅŸisel bloglardan, portfolyo sitelerine kadar birÃ§ok alanda kullanÄ±lmaktadÄ±r.
+            2009 en iyi PHP CMS sistemi seÃ§ilmiÅŸtir.
+        </p>
+ 
+        <h2>
+            Joomla
+        </h2>
+        <p class="resim"><img src="images/joomla.png" id="cerceve" /></p>
+        <p>
+            Joomla! sistem olarak bir CMSâ€™tir. Joomla ÅŸu anda dÃ¼nya Ã¼zerinde en Ã§ok tercih edilen ikinci iÃ§erik yÃ¶netim sistemidir
+            ve alanÄ±nda Ã¶dÃ¼ller kazanmÄ±ÅŸtÄ±r. Bu sistem sayesinde hayal edebileceÄŸiniz her tÃ¼rlÃ¼ siteyi oluÅŸturabilir, yayÄ±nlayabilir 
+            ve geliÅŸtirebilirsiniz. AÃ§Ä±k Kaynak (Open Source) mantÄ±ÄŸÄ± gereÄŸi Ã¼cretsiz olarak tÃ¼m dÃ¼nyaya hizmet vermektedir.
+            Bunun yanÄ±nda dÃ¼nya Ã§apÄ±nda milyonlarca gÃ¶nÃ¼llÃ¼ tarafÄ±ndan geliÅŸtirilmekte ve kusursuz bir sistem haline getirilmeye Ã§alÄ±ÅŸÄ±lmaktadÄ±r.
+            Joomla her geÃ§en gÃ¼n yeni bileÅŸenler, modÃ¼ller ve eklentiler sayesinde daha da geliÅŸmekte ve daha geniÅŸ kitlelerin ihtiyaÃ§larÄ±na
+            karÅŸÄ±lÄ±k vermektedir.
+        </p>
+    </div>
+</body>
+</html>

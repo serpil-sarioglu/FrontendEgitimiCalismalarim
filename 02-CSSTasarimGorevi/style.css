@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://i.ibb.co/R9q7L43/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Century Gothic";
+}
+#genel {
+  width: 960px;
+  padding: 10px;
+  border: 5px solid #00909e;
+  background-color: #fff;
+  margin: 100px auto 0px auto;
+}
+#genel h1 {
+  color: #e25822;
+  border-bottom: 2px solid #1b2a49;
+}
+#genel h2 {
+  color: #e25822;
+}
+#genel p {
+  text-align: justify;
+  line-height: 20px;
+}
+img[id="cerceve"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid #1b2a49;
+}
+#genel p[id="link"] {
+  text-align: center;
+}
+#link a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#link a:hover {
+  color: #e25822;
+  text-decoration: underline;
+}
